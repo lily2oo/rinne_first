@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+}
+
+@media screen and (min-width: 1025px) {
+
+    html,
+    body {
+        height: 150%;
+        width: 100%;
+    }
+
+
+    .wrap {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+
+
+    .a {
+        width: 100%;
+        height: 50%;
+        background-image: url(sozai/illustrate/rinneyoko.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        animation: fadeIn s ease 0s 1 normal;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+
+    }
+
+
+    .logo {
+        width: 30%;
+        height: auto;
+
+        position: relative;
+        top: 10%;
+
+        animation: fadeIn 5s ease 0s 1 normal;
+    }
+    .b{
+        height:50%;
+        width:50%;
+        float: left;
+        text-align: center;
+
+        padding-top: 100px;
+    }
+    .b a{
+        font-size: 50px;
+
+    }
+    .c{
+        height: 50%;
+        width: 50%;
+        float: right;
+        padding-top: 100px;
+        
+    }
+    .c a{
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width:480px){
+
+    html,
+    body {
+        height: 150%;
+        width: 100%;
+
+    }
+
+
+    .wrap {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .fixed {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        vertical-align: middle;
+        position: fixed;
+        background-color: rgba(205, 205, 205, 0.5);
+        z-index: 1;
+        animation: fadeIn 5s ease 0s 1 normal;
+    }
+
+    .headerrinne {
+        font-size: 50px;
+        animation: fadeIn 15s ease 0s 1 normal;
+        opacity: 0.5;
+    }
+
+
+    .a {
+        width: 100%;
+        height: 50%;
+        background-image: url(sozai/illustrate/rinne.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        animation: fadeIn 3s ease 0s 1 normal;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50%;
+        height: auto;
+        position: relative;
+        top: 16%;
+        animation: fadeIn 5s ease 0s 1 normal;
+    }
+
+    .b{
+        height:50%;
+        width:50%;
+        text-align: center;
+
+        padding-top: 100px;
+    }
+    .b a{
+        font-size: 30px;
+
+    }
+    .c{
+        height: 50%;
+        width: 50%;
+        float: right;
+        padding-top: 100px;
+        padding-right: 5%;
+        
+    }
+    .c a{
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+    html,
+    body {
+        height: 150%;
+        width: 100%;
+
+    }
+
+
+    .wrap {
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    .fixed {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        vertical-align: middle;
+        position: fixed;
+        background-color: rgba(205, 205, 205, 0.5);
+        z-index: 1;
+        animation: fadeIn 5s ease 0s 1 normal;
+    }
+
+    .headerrinne {
+        font-size: 50px;
+        animation: fadeIn 15s ease 0s 1 normal;
+        opacity: 0.5;
+    }
+
+
+    .a {
+        width: 100%;
+        height: 40%;
+        background-image: url(sozai/illustrate/rinne.png);
+        background-repeat: no-repeat;
+        background-size: 130%;
+        animation: fadeIn 3s ease 0s 1 normal;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50%;
+        height: auto;
+        position: relative;
+        top: 16%;
+        animation: fadeIn 5s ease 0s 1 normal;
+    }
+
+    .b{
+        height:30%;
+        width:100%;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .b a{
+        font-size: 30px;
+        
+    }
+    .c{
+        height: 30%;
+        width: 80%;
+        padding-top: 100px;
+        padding-left: 10%;
+    }
+    .c a{
+        text-align: center;
+        line-height: 38px;
+        font-size: 11px;
+            
+    }
+}
+
+
+@keyframes fadeIn {
+    /*animetion-nameで設定した値を書く*/
+
+    0% {
+        opacity: 0
+    }
+
+    /*アニメーション開始時は不透明度0%*/
+
+    100% {
+        opacity: 1
+    }
+
+    /*アニメーション終了時は不透明度100%*/
+
+}
+
+.fade_off {
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+.fade_on {
+    opacity: 1;
+}
+
+.tobuyatu {
+    text-decoration: none;
+    color: #000000;
+    z-index: 3;
+}
+
+.tobuyatu:hover {
+    transition: 0.3s;
+    color: #97a7d5;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background: #555555;
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
