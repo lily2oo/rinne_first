@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+}
+
+html,
+body {
+    height: 150%;
+    width: 100%;
+}
+
+
+.wrap {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+
+.sotogawa {
+    width: 100%;
+}
+
+
+label {
+    display: block;
+    margin: 0 0 4px 0;
+    padding: 15px;
+    line-height: 1;
+    color: #000;
+    background: ;
+    cursor: pointer;
+}
+
+.sotogawa ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sotogawa li {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.naka {
+    height: 100%;
+}
+
+.sora {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.sora img {
+    height: 100%;
+    width: auto;
+}
+
+.kotoba {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    float: right;
+}
+
+.kotoba p {
+    color: #000;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+
+
+
+@keyframes fadeIn {
+    /*animetion-nameで設定した値を書く*/
+
+    0% {
+        opacity: 0
+    }
+
+    /*アニメーション開始時は不透明度0%*/
+
+    100% {
+        opacity: 1
+    }
+
+    /*アニメーション終了時は不透明度100%*/
+
+}
+
+.fade_off {
+    opacity: 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    transition: all 1s;
+}
+
+.fade_on {
+    opacity: 1;
+}
+
+.tobuyatu {
+    text-decoration: none;
+    color: #000000;
+    z-index: 3;
+}
+
+.tobuyatu:hover {
+    transition: 0.3s;
+    color: #97a7d5;
+}
+
+.menu {
+    width: 10%;
+    float: right;
+    margin: 20px;
+
+}
+
+.menu a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.fixed {
+    position: fixed;
+}
+
+label[for="menu_bar01"] {
+    display: block;
+    margin: 0 0 4px 0;
+    padding: 15px;
+    line-height: 1;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+
+input{
+    display: none;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    list-style: none;
+}
+
+.menu li {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menu_bar01:checked ~ #links01 li {
+    height: 54px;
+    opacity: 1;
+}
+
+#sotogawa01:checked ~ #diary01 li {
+    height: 600px;
+    opacity: 1;
+}
+
+#sotogawa02:checked ~ #diary02 li {
+    height: 600px;
+    opacity: 1;
+}
