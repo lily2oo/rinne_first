@@ -23,7 +23,7 @@
     .a {
         width: 100%;
         height: 50%;
-        background-image: url(sozai/illustrate/rinneyoko.png);
+        background-image: url(illustrate/rinneyoko.png);
         background-repeat: no-repeat;
         background-size: 100%;
         animation: fadeIn s ease 0s 1 normal;
@@ -108,7 +108,7 @@
     .a {
         width: 100%;
         height: 50%;
-        background-image: url(sozai/illustrate/rinne.png);
+        background-image: url(illustrate/rinne.png);
         background-repeat: no-repeat;
         background-size: 100%;
         animation: fadeIn 3s ease 0s 1 normal;
@@ -187,7 +187,7 @@
     .a {
         width: 100%;
         height: 40%;
-        background-image: url(sozai/illustrate/rinne.png);
+        background-image: url(illustrate/rinne.png);
         background-repeat: no-repeat;
         background-size: 130%;
         animation: fadeIn 3s ease 0s 1 normal;
