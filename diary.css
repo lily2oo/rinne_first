@@ -187,3 +187,15 @@ input{
     height: 600px;
     opacity: 1;
 }
+#sotogawa03:checked ~ #diary03 li {
+    height: 600px;
+    opacity: 1;
+}
+#sotogawa04:checked ~ #diary04 li {
+    height: 600px;
+    opacity: 1;
+}
+#sotogawa05:checked ~ #diary05 li {
+    height: 600px;
+    opacity: 1;
+}
