@@ -4,7 +4,7 @@
 
 html,
 body {
-    height: 150%;
+    height: %;
     width: 100%;
 }
 
@@ -15,7 +15,15 @@ body {
     width: 100%;
 }
 
+.lwds{
+    width: 100%;
+    height: auto;
+}
 
+.lwd{
+    width: 100%;
+    height: auto;
+}
 .sotogawa {
     width: 100%;
 }
@@ -196,6 +204,34 @@ input{
     opacity: 1;
 }
 #sotogawa05:checked ~ #diary05 li {
+    height: 600px;
+    opacity: 1;
+}
+#sotogawa06:checked ~ #diary06 li {
+    height: 600px;
+    opacity: 1;
+}#sotogawa07:checked ~ #diary07 li {
+    height: 600px;
+    opacity: 1;
+}#sotogawa08:checked ~ #diary08 li {
+    height: 600px;
+    opacity: 1;
+}#sotogawa09:checked ~ #diary09 li {
+    height: 600px;
+    opacity: 1;
+}#sotogawa10:checked ~ #diary10 li {
+    height: 600px;
+    opacity: 1;
+}#sotogawa11:checked ~ #diary11 li {
+    height: 600px;
+    opacity: 1;
+}#sotogawa12:checked ~ #diary12 li {
+    height: 600px;
+    opacity: 1;
+}#sotogawa13:checked ~ #diary13 li {
+    height: 600px;
+    opacity: 1;
+}#sotogawa14:checked ~ #diary14 li {
     height: 600px;
     opacity: 1;
 }
