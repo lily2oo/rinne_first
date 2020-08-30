@@ -43,26 +43,30 @@
 
         animation: fadeIn 5s ease 0s 1 normal;
     }
-    .b{
-        height:50%;
-        width:50%;
+
+    .b {
+        height: 50%;
+        width: 50%;
         float: left;
         text-align: center;
-
+        line-height: 50px;
         padding-top: 100px;
     }
-    .b a{
-        font-size: 50px;
+
+    .b a {
+        font-size: 28px;
 
     }
-    .c{
+
+    .c {
         height: 50%;
         width: 50%;
         float: right;
         padding-top: 100px;
-        
+
     }
-    .c a{
+
+    .c a {
         text-align: center;
         line-height: 50px;
     }
@@ -70,11 +74,11 @@
 
 
 
-@media screen and (max-width: 1024px) and (min-width:480px){
+@media screen and (max-width: 1024px) and (min-width:480px) {
 
     html,
     body {
-        height: 150%;
+        height: ;
         width: 100%;
 
     }
@@ -87,27 +91,11 @@
         position: relative;
     }
 
-    .fixed {
-        width: 100%;
-        height: 80px;
-        text-align: center;
-        vertical-align: middle;
-        position: fixed;
-        background-color: rgba(205, 205, 205, 0.5);
-        z-index: 1;
-        animation: fadeIn 5s ease 0s 1 normal;
-    }
-
-    .headerrinne {
-        font-size: 50px;
-        animation: fadeIn 15s ease 0s 1 normal;
-        opacity: 0.5;
-    }
 
 
     .a {
         width: 100%;
-        height: 50%;
+        height: 1152px;
         background-image: url(illustrate/rinne.png);
         background-repeat: no-repeat;
         background-size: 100%;
@@ -117,35 +105,40 @@
 
     .logo {
         width: 50%;
-        height: auto;
+
         position: relative;
         top: 16%;
         animation: fadeIn 5s ease 0s 1 normal;
     }
 
-    .b{
-        height:50%;
-        width:50%;
-        text-align: center;
-
+    .c {
+        height: 100%;
+        width: 80%;
         padding-top: 100px;
+        padding-left: 10%;
+        text-align: center;
     }
-    .b a{
-        font-size: 30px;
+
+    .c a {
+
+        line-height: 38px;
+        font-size: 10%;
 
     }
-    .c{
-        height: 50%;
-        width: 50%;
-        float: right;
-        padding-top: 100px;
-        padding-right: 5%;
-        
-    }
-    .c a{
+
+    .b {
+        height: 500px;
+        width: 100%;
         text-align: center;
+        padding-top: 100px;
         line-height: 50px;
     }
+
+    .b a {
+        font-size: 150%;
+
+    }
+
 }
 
 @media screen and (max-width: 479px) {
@@ -153,7 +146,7 @@
 
     html,
     body {
-        height: 150%;
+        height: ;
         width: 100%;
 
     }
@@ -166,64 +159,53 @@
         position: relative;
     }
 
-    .fixed {
-        width: 100%;
-        height: 80px;
-        text-align: center;
-        vertical-align: middle;
-        position: fixed;
-        background-color: rgba(205, 205, 205, 0.5);
-        z-index: 1;
-        animation: fadeIn 5s ease 0s 1 normal;
-    }
-
-    .headerrinne {
-        font-size: 50px;
-        animation: fadeIn 15s ease 0s 1 normal;
-        opacity: 0.5;
-    }
 
 
     .a {
         width: 100%;
-        height: 40%;
+        height: 600px;
         background-image: url(illustrate/rinne.png);
         background-repeat: no-repeat;
-        background-size: 130%;
+        background-size: 100%;
         animation: fadeIn 3s ease 0s 1 normal;
         text-align: center;
     }
 
     .logo {
         width: 50%;
-        height: auto;
+
         position: relative;
         top: 16%;
         animation: fadeIn 5s ease 0s 1 normal;
     }
 
-    .b{
-        height:30%;
-        width:100%;
-        text-align: center;
-        padding-top: 100px;
-    }
-    .b a{
-        font-size: 30px;
-        
-    }
-    .c{
-        height: 30%;
+    .c {
+        height: 100%;
         width: 80%;
-        padding-top: 100px;
+        padding-top: 00px;
         padding-left: 10%;
     }
-    .c a{
+
+    .c a {
         text-align: center;
         line-height: 38px;
-        font-size: 11px;
-            
+        font-size: 10%;
+
     }
+
+    .b {
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+        line-height: 50px;
+    }
+
+    .b a {
+        font-size: 150%;
+
+    }
+
 }
 
 
@@ -269,11 +251,14 @@
 }
 
 footer {
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  background: #555555;
-  position: absolute;/*←絶対位置*/
-  bottom: 0; /*下に固定*/
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background: #555555;
+    position: absolute;
+    /*←絶対位置*/
+    bottom: 0;
+    /*下に固定*/
 }
+
